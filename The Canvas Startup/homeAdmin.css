@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+body{
+    background-color: #6E6E6E;
+}
+#navigation {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+#navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#recent_activities{
+    border: red 2px solid;
+}
+#recent_activities ul{
+    border: red 2px solid;
+    text-align: center;
+}
+#head-div{
+    /* border: 2px solid red; */
+    height: fit-content;
+    /* border: 2px solid red; */
+}
+#head-div div h1{
+    text-align: left;
+    font-size: 150px;
+}
+#head-div div img{
+    height: 500px;
+    /* border:  2px solid white; */
+    /* mix-blend-mode: multiply; */
+    width: 1000px;
+}
+#head-div div{
+    display: flex;
+    justify-content: space-between;
+}
+#logout{
+    width: 120px;
+    height: 25px;
+    background-color: yellowgreen;
+    border: yellowgreen 2px solid;
+    border-radius: 2px;
+    font-size: medium;
+    transition-duration: 0.4s;
+}
+#admin-dashboard{
+    /* border: 2px green solid; */
+    height: fit-content;
+}
+#head-div div div #send-work-btn{
+    width: 200px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: yellowgreen 2px solid;
+    border-radius: 2px;
+    font-size: medium;
+    transition-duration: 0.4s;
+}
+#head-div div div #send-work-btn:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#head-div div div{
+    /* border: green 2px solid; */
+    display: block;
+    align-items: center;
+}
+#admin-dashboard{
+    background-color: yellowgreen;
+}
+#admin-dashboard p{
+    /* border: 2px solid green; */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+#admin-dashboard #service-1{
+    border: 2px solid white;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 500px;
+    border-radius: 20px;
+}
+#admin-dashboard #service-1 p{
+    /* border: green 2px solid; */
+    width: 500px;
+}
+#admin-dashboard #service-1 img{
+    /* border: green 2px solid; */
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    margin-top: 10px;
+}
+#admin-dashboard #service-2 img{
+    /* border: green 2px solid; */
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    margin-top: 10px;
+}
+#admin-dashboard #service-2{
+    border: 2px solid white;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 500px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+#admin-dashboard #service-2 p{
+    border: green 2px solid;
+    width: 500px;
+}
+#formDiv{
+    /* border: 2px solid green; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#userImage{
+    /* border: 2px solid black; */
+}
+form{
+    /* border: black 2px solid; */
+    width: 600px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 10px 10px 2px black;
+}
+#portraitType{
+    /* border: 2px solid red; */
+    color: black;
+    /* border: 2px solid black; */
+}
+option{
+    color: black;
+}
+#portraitTypeDiv{
+    /* border: yellow 2px solid; */
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+}
+#userName{
+    width: 450px;
+    height: 25px;
+}
+#userNumber{
+    width: 450px;
+    height: 25px;
+}
+#portraitType{
+    height: 25px;
+    width: 100px;
+    margin-top: 10px;
+}
+textarea {
+    resize: none;
+ }
+#userNameDiv{
+    display: flex;
+    justify-content: flex-start;
+    /* border: green 2px solid; */
+    margin-top: 10px;
+    width: fit-content;
+}
+#userNumberDiv{
+    display: flex;
+    justify-content: flex-start;
+    /* border: green 2px solid; */
+    margin-top: 10px;
+    width: fit-content;
+}
+#userAddressDiv{
+    display: flex;
+    justify-content: flex-start;
+    /* border: green 2px solid; */
+    margin-top: 10px;
+    width: fit-content;
+}
+#userImageDiv{
+    display: flex;
+    justify-content: flex-start;
+    /* border: green 2px solid; */
+    margin-top: 20px;
+    width: fit-content;
+}
+#submitButtonDiv{
+    display: flex;
+    justify-content: center;
+    /* border: green 2px solid; */
+    margin-top: 10px;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    background-color: yellowgreen;
+    border: yellowgreen 2px solid;
+    border-radius: 2px;
+    font-size: medium;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+}

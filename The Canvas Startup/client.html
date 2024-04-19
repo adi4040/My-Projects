@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Commission</title>
+    <link rel="stylesheet" href="client.css">
+    <style>
+        /* Custom CSS for navigation */
+        /* Navigation bar */
+        #navigation {
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+            padding: 10px;
+            text-align: center;
+        }
+
+        #navigation a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #navigation a:hover {
+            background-color: rgba(0, 0, 0, 0.1); /* Light grey on hover */
+        }
+
+
+        /* Additional styling for form inputs */
+        input[type="text"],
+        input[type="tel"],
+        textarea {
+            color: #000; /* Black text color */
+            /* Add any additional styling here */
+        }
+    </style>
+</head>
+<body>
+   <div id="Heading">
+        <h1>Commission a Realistic Portrait</h1>
+
+        <div id="navigation">
+            <div style="display: flex;justify-content: space-between;width: 500px;">
+                <a href="client.html">Home</a> |
+                <a href="status.php">View Commission status</a> |
+                <a href="index.php">Log out</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="logo">
+       <h1 id="paint">Paint</h1>
+       <h1 id="star">Star</h1>
+    </div>
+    
+
+<div id="formDiv">
+    <form id="commissionForm" action="submitCommission.php" method="post" enctype="multipart/form-data">
+        <div id="formHeading">
+            <h1>Want to commission a work?</h1>
+        </div>
+        <div style="display: flex;justify-content: center;">
+             <div id="userNameDiv">
+                 <!-- <label for="userName">Name:</label> -->
+                 <input type="text" id="userName" name="userName" required placeholder="Namer">
+             </div>
+        </div>
+        <div style="display: flex;justify-content: center;">
+            <div id="userNumberDiv">
+                <!-- <label for="userNumber">Phone Number:</label> -->
+                <input type="tel" id="userNumber" name="userNumber" required placeholder="Phone Number">
+            </div>
+        </div>
+        <div style="display: flex;justify-content: center;">
+            <div id="userAddressDiv">
+                <!-- <label for="userAddress">Address:</label> -->
+                <textarea id="userAddress" name="userAddress" required rows="5" cols="65" placeholder="Address"></textarea>
+            </div>
+        </div>
+        <div style="display: flex;justify-content: center;margin-top: 10px;">
+            <div id="portraitTypeDiv">
+                <!-- <label for="portraitType">Select Portrait Type:</label> -->
+                <select id="portraitType" name="portraitType">
+                    <option value="Select Portrait Type">Select Portrait Type</option>
+                    <option value="sketch">Sketch</option>
+                    <option value="painting">Painting</option>
+                </select>
+            </div>
+        </div>
+
+        <div style="display: flex;justify-content: center;margin-top: 10px;">
+            <div id="statusId">
+                <label for="status">Status:</label>
+                <select id="status" name="status">
+                    <option value="Pending">Pending</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+        </div>
+        
+
+
+        <div style="display: flex;justify-content: center;">
+            <div id="userImageDiv">
+                <!-- <label for="userImage">Upload Image:</label> -->
+                <input type="file" id="userImage" name="userImage" accept="image/*" required>
+            </div>
+        </div>
+        <div id="submitButtonDiv">
+            <input type="submit" name ="submit" id="submit" value="Submit">
+        </div>
+    </form>
+</div>
+<div id="footer">
+    
+    <div id="social-icons">
+        <div id="footer-logo">
+            <h1 id="footer-paint">Paint</h1>
+            <h1 id="footer-star">Star</h1>
+         </div>
+        <ul>
+            <li id="instagram">
+                <a href="www.instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+            </li>
+            
+            <li id="facebook">
+                <a href="www.facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+            </li>
+           
+            <li id="twitter">
+                <a href="www.twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

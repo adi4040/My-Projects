@@ -1,0 +1,199 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: top;
+    color: white;
+}
+#formHeading{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 200px;
+    align-items: center;
+    font-size: larger;
+}
+body{
+    background-color: #6E6E6E;
+}
+#Heading{
+    /* border: 2px solid red; */
+    background-color: #383838;
+    display: flex;
+    /* height: 100px; */
+    justify-content: space-between;
+}
+h1{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+#formDiv{
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#userImage{
+    /* border: 2px solid black; */
+}
+form{
+    /* border: black 2px solid; */
+    width: 600px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 10px 10px 2px black;
+}
+#portraitType{
+    /* border: 2px solid red; */
+    color: black;
+    /* border: 2px solid black; */
+}
+option{
+    color: black;
+}
+#portraitTypeDiv{
+    /* border: yellow 2px solid; */
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+}
+#userName{
+    width: 450px;
+    height: 25px;
+}
+#userNumber{
+    width: 450px;
+    height: 25px;
+}
+#portraitType{
+    height: 25px;
+    width: 100px;
+    margin-top: 10px;
+}
+textarea {
+    resize: none;
+ }
+#userNameDiv{
+    display: flex;
+    justify-content: flex-start;
+    /* border: green 2px solid; */
+    margin-top: 10px;
+    width: fit-content;
+}
+#userNumberDiv{
+    display: flex;
+    justify-content: flex-start;
+    /* border: green 2px solid; */
+    margin-top: 10px;
+    width: fit-content;
+}
+#userAddressDiv{
+    display: flex;
+    justify-content: flex-start;
+    /* border: green 2px solid; */
+    margin-top: 10px;
+    width: fit-content;
+}
+#userImageDiv{
+    display: flex;
+    justify-content: flex-start;
+    /* border: green 2px solid; */
+    margin-top: 20px;
+    width: fit-content;
+}
+#submitButtonDiv{
+    display: flex;
+    justify-content: center;
+    /* border: green 2px solid; */
+    margin-top: 10px;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    background-color: yellowgreen;
+    border: yellowgreen 2px solid;
+    border-radius: 2px;
+    font-size: medium;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+}
+#footer{
+    border: #383838 2px solid ;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #383838;
+}
+#logOut{
+    width: 100px;
+    height: 30px;
+    background-color: yellowgreen;
+    border: yellowgreen 2px solid;
+    border-radius: 2px;
+    font-size: medium;
+    cursor: pointer;
+}
+#signUp{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: yellowgreen 2px solid;
+    border-radius: 2px;
+    font-size: medium;
+}
+#signUp:hover{
+    background-color:yellowgreen;
+    transition: 0.5s all;
+    
+    cursor: pointer;
+}
+#signUp:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+#logo #paint{
+    color: white;
+    margin-left: 10px;
+}
+#logo #star{
+    color: yellowgreen;
+}
+#social-icons{
+    /* display: inline-block;
+    justify-content: center; */
+    align-items: center;
+    border: green 2px solid;
+    margin-top: 400px;
+}
+#social-icons a img{
+    mix-blend-mode: multiply;
+    height: 40px;
+    margin-left: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* border: green 2px solid; */
+}
+#footer-logo{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+    border: 2px solid red;
+}
+#footer-logo #footer-paint{
+    color: white;
+    margin-left: 10px;
+}
+#footer-logo #footer-star{
+    color: yellowgreen;
+}
